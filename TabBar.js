@@ -29,7 +29,7 @@ export default class TabBar extends Component {
 
     static propTypes = {
         ...ViewPropTypes,
-        style: View.propTypes.style,
+        style: ViewPropTypes.style,
         defaultPage: React.PropTypes.number,
         navFontSize: React.PropTypes.number,
         navTextColor: React.PropTypes.string,
