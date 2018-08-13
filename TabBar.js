@@ -10,7 +10,8 @@ import {
 	Text,
 	TouchableHighlight,
 	Dimensions,
-	Animated
+	Animated,
+    ViewPropTypes
 } from 'react-native';
 import React, {Component} from 'react'
 
@@ -27,7 +28,7 @@ export default class TabBar extends Component {
     };
 
     static propTypes = {
-        ...View.propTypes,
+        ...ViewPropTypes,
         style: View.propTypes.style,
         defaultPage: React.PropTypes.number,
         navFontSize: React.PropTypes.number,
